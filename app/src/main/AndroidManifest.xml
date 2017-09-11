@@ -18,7 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".thirdactivity"></activity>
+        <activity android:name=".thirdactivity" />
+        <activity
+            android:name=".uuu"
+            android:label="@string/title_activity_uuu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
