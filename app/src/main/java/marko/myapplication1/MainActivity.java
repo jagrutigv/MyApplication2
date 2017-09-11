@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(scanResult != null) {
             Log.i("SCAN", "scan result: " + scanResult);
             resultTextView.setText(scanResult.toString());
+            Log.v("barcode", scanResult.getContents().toString());
             //String shareFact = resultTextView.getText().toString();
         } else
             Log.e("SCAN", "Sorry, the scan was unsuccessful...");
