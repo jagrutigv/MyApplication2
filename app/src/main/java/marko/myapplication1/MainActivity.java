@@ -11,8 +11,6 @@ import android.widget.TextView;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
-import org.json.JSONObject;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button scanBtn;
     private Button scanButton;
@@ -30,7 +28,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         IntentResult scanResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
         if(scanResult != null) {
-            JSONObject
             Log.i("SCAN", "scan result: " + scanResult);
             resultTextView.setText(scanResult.toString());
             Log.v("barcode", scanResult.getContents().toString());
