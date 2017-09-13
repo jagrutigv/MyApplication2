@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="marko.myapplication1.splash"
-    android:background="@drawable/one">
+    android:background="@drawable/one2">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:src="@drawable/logot" />
+        android:src="@drawable/logot2" />
 
 </LinearLayout>
