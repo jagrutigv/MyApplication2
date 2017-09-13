@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#146FBE</color>
+    <color name="colorPrimaryDark">#050e87</color>
+    <color name="colorAccent">#8c8db63d</color>
+    <color name="screenbackground">#1ba5b8</color>
+    <color name="button">#ff404e</color>
+    <color name="cardviewback">#daecf3</color>
+    <color name="grade_letter">#1ba5b8</color>
+    <color name="letters">#012d41</color>
+
+
+    <!-- Theme colors -->
+    <color name="theme_light">#F48FB1</color>
+    <color name="theme_default_primary">#EC407A</color>
+    <color name="theme_window_background">#2A2A2A</color>
+    <color name="accent">#EEFF41</color>
+    <color name="gray_row_color">#ff515252</color>
+
+
+    <!-- Dialer theme -->
+    <color name="dialer_call">#00C853</color>
+    <color name="theme_dialer_high">#0277BD</color>
+    <color name="theme_dialer_primary">#0288D1</color>
+    <color name="theme_dialer_accent">#FFF</color>
+
+    <!-- Reveal transition colors -->
+    <color name="color_set_1_primary">#864fc3f7</color>
+    <color name="color_set_1_accent">#e8054078</color>
+
+    <color name="color_set_2_primary">#42bd41</color>
+    <color name="color_set_2_accent">#673AB7</color>
+
+    <color name="color_set_3_primary">#ffb74d</color>
+    <color name="color_set_3_accent">#de5e38</color>
+
+    <color name="color_set_4_primary">#5cff8a65</color>
+    <color name="color_set_4_accent">#d500f9</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="dash_circular">#f57a30</color>
+    <color name="dash_result">#195fae</color>
+    <color name="dash_fees">#ea2363</color>
+    <color name="dash_observation">#e5b423</color>
+    <color name="dash_homework">#6bbd46</color>
+    <color name="dash_policies">#f15559</color>
+    <color name="dash_lable">#fff</color>
+    <color name="raw_parent_child">#6e2b2a2b</color>
+    <color name="txt_inquiry">#BACDE1</color>
+    <color name="txt2_inquiry">#d3ffce</color>
 </resources>
