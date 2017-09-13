@@ -38,12 +38,13 @@
                android:background="@android:color/transparent"
                android:drawablePadding="10dp"
                android:padding="8dp"
+               android:textColor="#ffffff"
                android:hint="Aadhar Number"
                android:textColorHint="#ffff"
                android:maxLines="1"
                android:maxLength="12"
                android:drawableLeft="@drawable/ic_action_user"
-               android:layout_marginTop="60dp" />
+               android:layout_marginTop="20dp" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -55,6 +56,7 @@
                 android:ems="10"
                 android:drawablePadding="10dp"
                 android:padding="8dp"
+                android:textColor="#ffffff"
                 android:hint="********"
                 android:textColorHint="#ffff"
                 android:maxLines="1"
@@ -65,6 +67,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#f9d7db"/>
+            
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_effect"
+                android:text="@string/login"
+                android:clickable="true"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginTop="24dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/signin_effect"
+                android:text="@string/signin"
+                android:textAllCaps="false"
+                android:clickable="true"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginTop="24dp"/>
+
 
         </LinearLayout>
 
