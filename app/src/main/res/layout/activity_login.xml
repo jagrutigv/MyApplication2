@@ -69,6 +69,7 @@
                 android:background="#f9d7db"/>
             
             <Button
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_effect"
@@ -77,9 +78,10 @@
                 android:textColor="#ffffff"
                 android:textAllCaps="false"
                 android:textSize="20sp"
-                style="@style/Base.TextAppearance.AppCompat.Body1"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
                 android:layout_marginTop="24dp"/>
             <Button
+                android:id="@+id/button1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/signin_effect"
@@ -88,7 +90,7 @@
                 android:clickable="true"
                 android:textSize="20sp"
                 android:textColor="#ffffff"
-                style="@style/Base.TextAppearance.AppCompat.Body1"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
                 android:layout_marginTop="24dp"/>
 
 

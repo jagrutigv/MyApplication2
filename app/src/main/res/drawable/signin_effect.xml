@@ -3,9 +3,9 @@
 
     <stroke
         android:width="2dp"
-        android:color="@color/accent" />
+        android:color="@color/cardviewback" />
     <corners
-        android:radius="25dp"/>
+        android:radius="25dp" />
     <padding
         android:left="2dp"
         android:right="2dp"
