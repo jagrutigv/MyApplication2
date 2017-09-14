@@ -44,7 +44,8 @@
                android:maxLines="1"
                android:maxLength="12"
                android:drawableLeft="@drawable/ic_action_user"
-               android:layout_marginTop="20dp" />
+               android:layout_marginTop="20dp"
+               android:id="@+id/et_adharnum"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -62,26 +63,27 @@
                 android:maxLines="1"
                 android:background="@android:color/transparent"
                 android:layout_marginTop="4dp"
-                android:drawableLeft="@drawable/ic_lock" />
+                android:drawableLeft="@drawable/ic_lock"
+                android:id="@+id/et_pass"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#f9d7db"/>
             
             <Button
-
+                android:id="@+id/login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_effect"
                 android:text="@string/login"
-                android:clickable="true"
+                android:onClick="loginclick"
                 android:textColor="#ffffff"
                 android:textAllCaps="false"
                 android:textSize="20sp"
                 style="@style/Base.TextAppearance.AppCompat.Body2"
                 android:layout_marginTop="24dp"/>
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/signin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/signin_effect"
