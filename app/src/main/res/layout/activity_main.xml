@@ -6,29 +6,10 @@
     android:layout_height="match_parent"
     tools:context="marko.myapplication1.MainActivity"
     android:orientation="vertical">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Registration"
-        android:textAlignment="center"
-        android:textSize="35dp"
-        android:layout_marginTop="40dp"
-        android:textColor="@color/colorPrimary"
-        android:id="@+id/img1"/>
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/qr"/>
-
-    <Button
+ <SurfaceView
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
-     android:id="@+id/scan_code"
-     android:layout_margin="30dp"
-     android:text="Scan your Adhar Card"/>
-
+     android:id="@+id/sv"/>
 
 
 </LinearLayout>

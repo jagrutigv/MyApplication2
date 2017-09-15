@@ -92,16 +92,10 @@ public class SigninActivity extends AppCompatActivity{
     private void prepareAlbums() {
         int[] covers = new int[]{
                 R.drawable.tb1,
+                R.drawable.list1,
                 R.drawable.money,
-                R.drawable.list,
-                R.drawable.one2,
-                R.drawable.logot2,
-                R.drawable.logot2,
-                R.drawable.logot2,
-                R.drawable.logot2,
-                R.drawable.logot2,
-                R.drawable.logot2,
-                R.drawable.logot2};
+                R.drawable.help,
+               };
 
         Album a = new Album(covers[0]);
         albumList.add(a);
@@ -115,23 +109,6 @@ public class SigninActivity extends AppCompatActivity{
         a = new Album(covers[3]);
         albumList.add(a);
 
-        a = new Album(covers[4]);
-        albumList.add(a);
-
-        a = new Album(covers[5]);
-        albumList.add(a);
-
-        a = new Album(covers[6]);
-        albumList.add(a);
-
-        a = new Album(covers[7]);
-        albumList.add(a);
-
-        a = new Album(covers[8]);
-        albumList.add(a);
-
-        a = new Album(covers[9]);
-        albumList.add(a);
 
         adapter.notifyDataSetChanged();
     }
