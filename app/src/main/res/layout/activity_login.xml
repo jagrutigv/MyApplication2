@@ -30,70 +30,74 @@
                 android:padding="16dp"
                 android:src="@drawable/two" />
 
-           <EditText
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:inputType="number"
-               android:ems="10"
-               android:background="@android:color/transparent"
-               android:drawablePadding="10dp"
-               android:padding="8dp"
-               android:textColor="#ffffff"
-               android:hint="Aadhar Number"
-               android:textColorHint="#ffff"
-               android:maxLines="1"
-               android:maxLength="12"
-               android:drawableLeft="@drawable/ic_action_user"
-               android:layout_marginTop="20dp"
-               android:id="@+id/et_adharnum"/>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#f9d7db"/>
             <EditText
+                android:id="@+id/et_adharnum"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"
-                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_action_user"
                 android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Aadhar Number"
+                android:inputType="number"
+                android:maxLength="12"
+                android:maxLines="1"
                 android:padding="8dp"
                 android:textColor="#ffffff"
-                android:hint="********"
-                android:textColorHint="#ffff"
-                android:maxLines="1"
-                android:background="@android:color/transparent"
-                android:layout_marginTop="4dp"
-                android:drawableLeft="@drawable/ic_lock"
-                android:id="@+id/et_pass"/>
+                android:textColorHint="#ffff" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#f9d7db"/>
-            
+                android:background="#f9d7db" />
+
+            <EditText
+                android:id="@+id/et_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="********"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
             <Button
                 android:id="@+id/login"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
                 android:background="@drawable/button_effect"
-                android:text="@string/login"
                 android:onClick="loginclick"
-                android:textColor="#ffffff"
+                android:text="@string/login"
                 android:textAllCaps="false"
-                android:textSize="20sp"
-                style="@style/Base.TextAppearance.AppCompat.Body2"
-                android:layout_marginTop="24dp"/>
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
             <Button
                 android:id="@+id/signin"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
                 android:background="@drawable/signin_effect"
+                android:clickable="true"
                 android:text="@string/signin"
                 android:textAllCaps="false"
-                android:clickable="true"
-                android:textSize="20sp"
                 android:textColor="#ffffff"
-                style="@style/Base.TextAppearance.AppCompat.Body2"
-                android:layout_marginTop="24dp"/>
+                android:textSize="20sp" />
 
 
         </LinearLayout>
