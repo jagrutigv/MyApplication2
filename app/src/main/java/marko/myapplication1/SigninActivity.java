@@ -48,7 +48,7 @@ public class SigninActivity extends AppCompatActivity{
         prepareAlbums();
 
         try {
-            Glide.with(this).load(R.drawable.cover).into((ImageView) findViewById(R.id.backdrop));
+            Glide.with(this).load(R.drawable.one2).into((ImageView) findViewById(R.id.backdrop));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -91,46 +91,46 @@ public class SigninActivity extends AppCompatActivity{
      */
     private void prepareAlbums() {
         int[] covers = new int[]{
-                R.drawable.gallery,
-                R.drawable.gallery,
-                R.drawable.gallery,
-                R.drawable.gallery,
-                R.drawable.gallery,
-                R.drawable.gallery,
-                R.drawable.gallery,
-                R.drawable.gallery,
-                R.drawable.gallery,
-                R.drawable.gallery,
-                R.drawable.gallery};
+                R.drawable.tb1,
+                R.drawable.money,
+                R.drawable.list,
+                R.drawable.one2,
+                R.drawable.logot2,
+                R.drawable.logot2,
+                R.drawable.logot2,
+                R.drawable.logot2,
+                R.drawable.logot2,
+                R.drawable.logot2,
+                R.drawable.logot2};
 
-        Album a = new Album("Maroon5", 13, covers[0]);
+        Album a = new Album(covers[0]);
         albumList.add(a);
 
-        a = new Album("Sugar Ray", 8, covers[1]);
+        a = new Album(covers[1]);
         albumList.add(a);
 
-        a = new Album("Bon Jovi", 11, covers[2]);
+        a = new Album(covers[2]);
         albumList.add(a);
 
-        a = new Album("The Corrs", 12, covers[3]);
+        a = new Album(covers[3]);
         albumList.add(a);
 
-        a = new Album("The Cranberries", 14, covers[4]);
+        a = new Album(covers[4]);
         albumList.add(a);
 
-        a = new Album("Westlife", 1, covers[5]);
+        a = new Album(covers[5]);
         albumList.add(a);
 
-        a = new Album("Black Eyed Peas", 11, covers[6]);
+        a = new Album(covers[6]);
         albumList.add(a);
 
-        a = new Album("VivaLaVida", 14, covers[7]);
+        a = new Album(covers[7]);
         albumList.add(a);
 
-        a = new Album("The Cardigans", 11, covers[8]);
+        a = new Album(covers[8]);
         albumList.add(a);
 
-        a = new Album("Pussycat Dolls", 17, covers[9]);
+        a = new Album(covers[9]);
         albumList.add(a);
 
         adapter.notifyDataSetChanged();

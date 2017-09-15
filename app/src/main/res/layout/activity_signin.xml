@@ -7,6 +7,9 @@
     android:layout_height="match_parent"
     android:background="@android:color/white"
     android:fitsSystemWindows="true">
+
+    <include layout="@layout/content_main" />
+
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
@@ -49,14 +52,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/backdrop_title"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/holo_red_dark"
                         android:textSize="@dimen/backdrop_title" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/backdrop_subtitle"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/holo_red_dark"
                         android:textSize="@dimen/backdrop_subtitle" />
 
                 </LinearLayout>
@@ -72,9 +75,6 @@
         </android.support.design.widget.CollapsingToolbarLayout>
 
     </android.support.design.widget.AppBarLayout>
-
-    <include layout="@layout/content_main" />
-
 
 
 </android.support.design.widget.CoordinatorLayout>
