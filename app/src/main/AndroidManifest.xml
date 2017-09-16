@@ -16,11 +16,9 @@
             android:value="barcode" />
 
         <activity android:name=".MainActivity" />
-        <activity android:name=".Registration" />
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
-        <activity android:name=".SigninActivity" />
         <activity android:name=".Splash1Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,8 +30,13 @@
             android:name=".BookActivity"
             android:label="Book"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme" />
         <activity android:name=".Payment" />
-        <activity android:name=".Ticket"></activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".camera"></activity>
     </application>
 
 </manifest>

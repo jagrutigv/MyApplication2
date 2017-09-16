@@ -25,7 +25,7 @@ Button btn,btn1;
 
     @Override
     public void onClick(View v) {
-        Intent i=new Intent(this,BookActivity.class);
+        Intent i=new Intent(this,Dashboard.class);
         startActivity(i);
     }
 }

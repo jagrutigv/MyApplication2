@@ -13,8 +13,9 @@ public class Payment extends AppCompatActivity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
         btn=(Button)findViewById(R.id.proceed);
-        btn.setOnClickListener(this);
+      btn.setOnClickListener(this);
     }
+
 
     @Override
     public void onClick(View v) {

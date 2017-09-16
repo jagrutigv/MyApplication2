@@ -3,17 +3,20 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/Booking"
+            android:id="@+id/nav_camera"
+
             android:title="Booking" />
         <item
-            android:id="@+id/history"
+            android:id="@+id/nav_gallery"
 
-            android:title="history" />
-        <item
-            android:id="@+id/price"
             android:title="Ticket Price" />
         <item
-            android:id="@+id/help"
+            android:id="@+id/nav_slideshow"
+
+            android:title="Booking History" />
+        <item
+            android:id="@+id/nav_manage"
+
             android:title="help" />
     </group>
 
