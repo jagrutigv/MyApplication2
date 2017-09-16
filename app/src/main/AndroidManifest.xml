@@ -32,7 +32,8 @@
             android:name=".BookActivity"
             android:label="Book"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Payment"></activity>
+        <activity android:name=".Payment" />
+        <activity android:name=".Ticket"></activity>
     </application>
 
 </manifest>
