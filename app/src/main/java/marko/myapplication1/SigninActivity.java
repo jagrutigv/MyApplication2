@@ -48,7 +48,7 @@ public class SigninActivity extends AppCompatActivity{
         prepareAlbums();
 
         try {
-            Glide.with(this).load(R.drawable.one2).into((ImageView) findViewById(R.id.backdrop));
+            Glide.with(this).load(R.drawable.bg).into((ImageView) findViewById(R.id.backdrop));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -92,10 +92,10 @@ public class SigninActivity extends AppCompatActivity{
     private void prepareAlbums() {
         int[] covers = new int[]{
                 R.drawable.tb1,
-                R.drawable.list1,
                 R.drawable.money,
+                R.drawable.list1,
                 R.drawable.help,
-               };
+              };
 
         Album a = new Album(covers[0]);
         albumList.add(a);
@@ -108,6 +108,7 @@ public class SigninActivity extends AppCompatActivity{
 
         a = new Album(covers[3]);
         albumList.add(a);
+
 
 
         adapter.notifyDataSetChanged();
