@@ -21,4 +21,11 @@
     <string name="action_play_next">Play Next</string>
     <string name="backdrop_title">NAME OF PASSENGER</string>
     <string name="backdrop_subtitle">MUMBAI LOCAL</string>
+    <string name="title_activity_main_dashboard">MainDashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
