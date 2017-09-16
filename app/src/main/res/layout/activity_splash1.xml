@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="marko.myapplication1.splash"
+    tools:context="marko.myapplication1.Splash1Activity"
     android:background="@color/button">
 
 
