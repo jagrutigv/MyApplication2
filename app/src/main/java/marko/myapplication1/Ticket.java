@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Ticket extends AppCompatActivity implements View.OnClickListener {
-Button q;
+    Button q;
     AlertDialog alertDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,9 +17,7 @@ Button q;
         setContentView(R.layout.activity_ticket);
         q=(Button)findViewById(R.id.Quit);
         q.setOnClickListener(this);
-
     }
-
     @Override
     public void onClick(View v) {
         new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Exit")

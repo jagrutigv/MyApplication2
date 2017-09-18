@@ -41,7 +41,7 @@
     tools:layout_editor_absoluteX="8dp"
 />
         <Button
-            android:id="@+id/proceed"
+            android:id="@+id/proceed1"
             style="@style/Base.TextAppearance.AppCompat.Body2"
             android:layout_width="300dp"
             android:layout_height="wrap_content"

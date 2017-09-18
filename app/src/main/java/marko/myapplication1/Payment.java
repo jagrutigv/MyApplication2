@@ -12,14 +12,14 @@ public class Payment extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
-        btn=(Button)findViewById(R.id.proceed);
+        btn=(Button)findViewById(R.id.proceed1);
       btn.setOnClickListener(this);
     }
 
 
     @Override
     public void onClick(View v) {
-        Intent i=new Intent(this,Ticket.class);
+        Intent i=new Intent(Payment.this,Ticket.class);
         startActivity(i);
     }
 }

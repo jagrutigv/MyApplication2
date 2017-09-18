@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#050e87</color>
     <color name="colorAccent">#8c8db63d</color>
     <color name="screenbackground">#1ba5b8</color>
-    <color name="button">#ff404e</color>
+    <color name="button"> #ff404e</color>
     <color name="cardviewback">#daecf3</color>
     <color name="grade_letter">#1ba5b8</color>
     <color name="letters">#012d41</color>

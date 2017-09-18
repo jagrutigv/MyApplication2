@@ -36,7 +36,8 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".Payment" />
         <activity android:name=".Main2Activity" />
-        <activity android:name=".camera"></activity>
+        <activity android:name=".camera" />
+        <activity android:name=".Ticket"></activity>
     </application>
 
 </manifest>
