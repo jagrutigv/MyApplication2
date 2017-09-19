@@ -37,7 +37,9 @@
         <activity android:name=".Payment" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".camera" />
-        <activity android:name=".Ticket"></activity>
+        <activity android:name=".Ticket" />
+        <activity android:name=".Signin" />
+        <activity android:name=".siginin"></activity>
     </application>
 
 </manifest>

@@ -20,6 +20,14 @@ Button btn,btn1;
         // Set up the login form.
         btn=(Button)findViewById(R.id.login);
         btn.setOnClickListener(this);
+        btn1=(Button)findViewById(R.id.signin);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i1=new Intent(LoginActivity.this,siginin.class);
+                startActivity(i1);
+            }
+        });
     }
 
 
